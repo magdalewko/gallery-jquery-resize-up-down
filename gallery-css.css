@@ -1,0 +1,53 @@
+@font-face{
+	font-family:myLauren;
+	src:url(lauren/Lauren-Regular.ttf);
+}
+@font-face{
+	font-family:myMottona;
+	src:url(mottona/mottona_demo.otf);
+}
+@font-face{
+	font-family:myBebasNeue;
+	src:url(bebas_neue/BebasNeue.otf);
+}
+
+.imgSize{
+	height:400px;
+	}
+h1{
+	font-family: myLauren, Georgia, myMottona!important;
+	font-size: 4em!important;
+	color:#a3c2c2!important;
+	padding:0.5em;
+	}
+	
+/*NAVIGATION*/
+.navbar-default {
+    background-color: transparent!important;
+    border-color: transparent!important;}
+.nav > li {
+    position: relative;
+    display: block;
+	/*border:1px solid #d1e0e0!important;*/
+	border-left: 1px solid  #d1e0e0!important;
+	font-family: Arial, Georgia;
+	margin: 0.1em;
+	padding:1em 1.2em;
+	}
+/*NAVIGATION*/
+#imgs{
+	padding:1em;
+	border-top: 1px dashed #e0ebeb!important;
+	border-bottom: 1px dashed #e0ebeb!important;
+	}
+#imgs > img {
+
+	/*border:4px solid #e0ebeb;*/
+	}
+#screen{
+	height:100px;
+	width:50%;
+	border: 2px solid pink;
+	}
+
+
