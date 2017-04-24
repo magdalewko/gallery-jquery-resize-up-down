@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head><title></title>
+	<link rel="stylesheet" type="text/css" href="gallery-css.css">
+	 <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class=".col-md-12">
+					<h1>Gallery</h1>
+						<nav class="navbar navbar-default">
+							<ul class="nav navbar-nav" id="gallery">
+								<li data-room="kitchen">kitchen</li>
+								<li data-room="bathroom">bathroom</li>
+								<li data-room="master-bedroom">master bedroom</li>				
+							</ul>
+						</nav>
+							
+					<div id="imgs">				
+						<img src="kitchen-2.jpg" data-room-type="kitchen" class="imgSize"/>
+						<img src="bedroom.jpg" data-room-type="master-bedroom" class="imgSize"/> 
+						<img src="kitchen-3.jpg" data-room-type="kitchen" class="imgSize"/>
+						<img src="bathroom.jpg" data-room-type="bathroom" class="imgSize" />
+						<img src="kitchen-4.jpg" data-room-type="kitchen" class="imgSize"/>
+						<img src="bedroom-1.jpg" data-room-type="master-bedroom" class="imgSize"/>
+						<img src="bathroom-2.jpg" data-room-type="bathroom"  class="imgSize"/>
+					</div>
+				</div><!-- end/col -->
+			</div><!-- end row -->
+		 <!-- <div id="screen"> </div> --> 
+		</div><!-- end/container-fluid -->
+		<script src="gallery.js">									
+		</script>
+		
+	</body>
+</html>
