@@ -15,7 +15,14 @@ $("ul#gallery li").click(function(){
 	});
 	
 });
+
+$("ul#gallery li.allimg").click(function(){
+	
+	$("img").animate({height:400},400);
+	});
+
 		
-		
+	//for more efficiency $("ul#gallery").find("li.all");	
+	//$('#attached_deals_tab li:not(.active)');
 
 	
