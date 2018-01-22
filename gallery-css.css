@@ -15,7 +15,8 @@
 	height:400px;
 	}
 h1{
-	font-family: myLauren, Georgia, myMottona!important;
+	/*font-family: myLauren, Georgia, myMottona!important;*/
+	font-family: 'Cinzel', serif;
 	font-size: 4em!important;
 	color:#a3c2c2!important;
 	padding:0.5em;
